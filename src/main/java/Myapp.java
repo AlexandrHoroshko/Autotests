@@ -8,6 +8,6 @@ public class Myapp {
         WebDriver driver;
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
-        driver.get("https://google.com");;
+        driver.get("https://google.com");
     }
 }
