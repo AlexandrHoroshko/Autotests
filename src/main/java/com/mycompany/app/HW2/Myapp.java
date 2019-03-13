@@ -1,6 +1,4 @@
-package com.mycompany.app;
-
-import org.openqa.selenium.WebDriver;
+package com.mycompany.app.HW2;
 
 public class Myapp {
 
