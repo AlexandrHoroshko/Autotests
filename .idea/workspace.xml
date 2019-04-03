@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/HW4/HomePage.java" line="18" mnemonic="9" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/HW4/HomePage.java" line="27" mnemonic="9" />
   </component>
   <component name="BuildServerSettings">
     <option name="LOGIN" value="" />
@@ -27,9 +27,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a30f18ef-85d8-4b84-904f-dd6e099d6cab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW4/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TetsGoogle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/AutoTestGitHub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HW4/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW4/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/app/HW3/DriverPoolHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/app/HW3/DriverPoolHolder.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,17 +40,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/HW4/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+            <state relative-caret-position="272">
+              <caret line="16" column="54" lean-forward="true" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#992#993#0" expanded="true" />
-                <element signature="e#1023#1024#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,10 +68,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TetsGoogle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="452">
+              <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/app/HW3/DriverPoolHolder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+            <state relative-caret-position="367">
+              <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,6 +103,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>versionToDownload</find>
+      <find>private</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -103,12 +119,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mycompany/app/HW2/Myapp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mycompany/app/DriverHolder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mycompany/app/HW3/DriverHolder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/app/HW3/DriverPoolHolder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mycompany/app/HW3/DriverPoolHolderHashMap.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mycompany/app/HW3/Myapp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mycompany/app/Myapp.java" />
         <option value="$PROJECT_DIR$/src/main/java/HW4/screens/HomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/HW4/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TetsGoogle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/app/HW3/DriverPoolHolder.java" />
       </list>
     </option>
   </component>
@@ -147,7 +164,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,11 +238,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553710038813" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553710224662" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -260,20 +278,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Myapp">
-    <configuration name="Myapp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mycompany.app.HW3.Myapp" />
-      <module name="Autotests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mycompany.app.HW3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TetsGoogle">
     <configuration name="Myapp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mycompany.app.Myapp" />
       <module name="Autotests" />
@@ -281,26 +286,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutoTestGitHub.testGitLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TetsGoogle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Autotests" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AutoTestGitHub" />
-      <option name="METHOD_NAME" value="testGitLogin" />
+      <option name="MAIN_CLASS_NAME" value="TetsGoogle" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TetsGoogle.GoodLuck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Autotests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TetsGoogle" />
+      <option name="METHOD_NAME" value="GoodLuck" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TetsGoogle.GoodLuckFill" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Autotests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TetsGoogle" />
+      <option name="METHOD_NAME" value="GoodLuckFill" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TetsGoogle.clickSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Autotests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TetsGoogle" />
+      <option name="METHOD_NAME" value="clickSearch" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Myapp (1)" />
       <item itemvalue="Application.Myapp" />
-      <item itemvalue="JUnit.AutoTestGitHub.testGitLogin" />
+      <item itemvalue="JUnit.TetsGoogle.GoodLuck" />
+      <item itemvalue="JUnit.TetsGoogle" />
+      <item itemvalue="JUnit.TetsGoogle.clickSearch" />
+      <item itemvalue="JUnit.TetsGoogle.GoodLuckFill" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TetsGoogle" />
+        <item itemvalue="JUnit.TetsGoogle.GoodLuck" />
+        <item itemvalue="JUnit.TetsGoogle.GoodLuckFill" />
+        <item itemvalue="JUnit.TetsGoogle.clickSearch" />
         <item itemvalue="Application.Myapp" />
-        <item itemvalue="Application.Myapp (1)" />
-        <item itemvalue="JUnit.AutoTestGitHub.testGitLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -357,22 +395,53 @@
       <option name="project" value="LOCAL" />
       <updated>1552500320971</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add DriverPoolHolder">
+      <created>1553710195354</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1553710195354</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AutoTestGitHub_testGitLogin - 2019.02.27 at 18h 07m 24s.xml">
-      <configuration name="AutoTestGitHub.testGitLogin" configurationId="JUnit" />
+    <history-entry file="TetsGoogle_GoodLuckFill - 2019.04.03 at 19h 47m 04s.xml">
+      <configuration name="TetsGoogle.GoodLuckFill" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AutoTestGitHub_testGitLogin - 2019.03.13 at 17h 54m 40s.xml">
-      <configuration name="AutoTestGitHub.testGitLogin" configurationId="JUnit" />
+    <history-entry file="TetsGoogle_GoodLuckFill - 2019.04.03 at 19h 50m 22s.xml">
+      <configuration name="TetsGoogle.GoodLuckFill" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TetsGoogle_GoodLuckFill - 2019.04.03 at 19h 53m 20s.xml">
+      <configuration name="TetsGoogle.GoodLuckFill" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TetsGoogle_GoodLuckFill - 2019.04.03 at 19h 54m 06s.xml">
+      <configuration name="TetsGoogle.GoodLuckFill" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TetsGoogle_GoodLuckFill - 2019.04.03 at 19h 55m 09s.xml">
+      <configuration name="TetsGoogle.GoodLuckFill" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TetsGoogle_GoodLuck - 2019.04.03 at 19h 56m 48s.xml">
+      <configuration name="TetsGoogle.GoodLuck" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TetsGoogle_GoodLuck - 2019.04.03 at 19h 57m 01s.xml">
+      <configuration name="TetsGoogle.GoodLuck" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TetsGoogle_GoodLuck - 2019.04.03 at 19h 57m 26s.xml">
+      <configuration name="TetsGoogle.GoodLuck" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TetsGoogle - 2019.04.03 at 19h 58m 06s.xml">
+      <configuration name="TetsGoogle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TetsGoogle - 2019.04.03 at 20h 01m 53s.xml">
+      <configuration name="TetsGoogle" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2739872" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -382,12 +451,12 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.1375948" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
@@ -423,13 +492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="444" column="87" lean-forward="true" selection-start-line="444" selection-start-column="87" selection-end-line="444" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -483,13 +545,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/app/HW3/DriverPoolHolder.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="737">
+          <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -500,14 +559,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HW4/HomePage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TetsGoogle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        <state relative-caret-position="452">
+          <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#992#993#0" expanded="true" />
-            <element signature="e#1023#1024#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/app/HW3/DriverPoolHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HW4/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="54" lean-forward="true" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

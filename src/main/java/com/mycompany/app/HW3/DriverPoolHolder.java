@@ -36,10 +36,12 @@ public class DriverPoolHolder {
         if (expectedDriverName.equalsIgnoreCase("CHROME")) {
             if (chromeInstance != null) {
                 chromeInstance.quit();
+                chromeInstance = null;
             }
         } else if (expectedDriverName.equalsIgnoreCase("MF")) {
             if (mfInstance != null) {
                 mfInstance.quit();
+                mfInstance = null;
             }
         } else {
             throw new Exception("Unable to recognize expectedDriver's name " + expectedDriverName);
