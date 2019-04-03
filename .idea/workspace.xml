@@ -27,10 +27,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a30f18ef-85d8-4b84-904f-dd6e099d6cab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TetsGoogle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW4/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW4/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/app/HW3/DriverPoolHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/app/HW3/DriverPoolHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TetsGoogle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestGoogle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,7 +44,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/HW4/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -58,20 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/AutoTestGitHub.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestGoogle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TetsGoogle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+            <state relative-caret-position="85">
+              <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,8 +113,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mycompany/app/Myapp.java" />
         <option value="$PROJECT_DIR$/src/main/java/HW4/screens/HomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/HW4/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TetsGoogle.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mycompany/app/HW3/DriverPoolHolder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TetsGoogle.java" />
       </list>
     </option>
   </component>
@@ -402,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553710195354</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Tests Google home page">
+      <created>1554311353939</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1554311353939</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -478,7 +474,8 @@
     </ignored-roots>
     <MESSAGE value="Copy autotest github" />
     <MESSAGE value="Add DriverPoolHolder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add DriverPoolHolder" />
+    <MESSAGE value="Tests Google home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tests Google home page" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -552,23 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AutoTestGitHub.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TetsGoogle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/app/HW3/DriverPoolHolder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
@@ -579,10 +559,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AutoTestGitHub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/HW4/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="54" lean-forward="true" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestGoogle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,11 +1,9 @@
 import HW4.HomePage;
-import com.mycompany.app.DriverHolder;
 import com.mycompany.app.HW3.DriverPoolHolder;
 import org.junit.After;
-import org.junit.AfterClass;
 import org.junit.Test;
 
-public class TetsGoogle {
+public class TestGoogle {
 
     private HomePage homePage = new HomePage();
 
