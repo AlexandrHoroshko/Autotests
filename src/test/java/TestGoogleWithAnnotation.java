@@ -1,16 +1,22 @@
-import com.mycompany.app.HW4.HomePage;
 import com.mycompany.app.HW3.DriverPoolHolder;
+import com.mycompany.app.HW5.HomePageWithAnotation;
 import org.junit.After;
 import org.junit.Test;
+import org.openqa.selenium.WebDriver;
 
-public class TestGoogle {
+public class TestGoogleWithAnnotation {
 
-    private HomePage homePage = new HomePage();
+
+    private WebDriver driver = DriverPoolHolder.getDriver("chrome");
+
+    private HomePageWithAnotation homePage = new HomePageWithAnotation(driver);
+
+    public TestGoogleWithAnnotation() throws Exception {
+    }
 
     @Test
     public void GoodLuck() throws Exception {
         homePage.open();
-        homePage.getLogo();
         Thread.sleep(1000);
         homePage.clickOnGoodLuckEmpty();
     }
@@ -18,7 +24,6 @@ public class TestGoogle {
     @Test
     public void GoodLuckFill() throws Exception {
         homePage.open();
-        homePage.getLogo();
         homePage.setText("Page object Java");
         Thread.sleep(1000);
         homePage.clickOnGoodLuck();
@@ -41,7 +46,7 @@ public class TestGoogle {
     }
 
     @After
-    public void resset() throws Exception {
+    public void reset() throws Exception {
         DriverPoolHolder.resetSession("chrome");
     }
 

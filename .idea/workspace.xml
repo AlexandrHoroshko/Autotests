@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/HW4/HomePage.java" line="27" mnemonic="9" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/mycompany/app/HW4/HomePage.java" line="27" mnemonic="9" />
   </component>
   <component name="BuildServerSettings">
     <option name="LOGIN" value="" />
@@ -27,8 +27,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a30f18ef-85d8-4b84-904f-dd6e099d6cab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/app/HW4/HomePageWithAnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestGoogleWithAnnotation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HW4/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/app/HW4/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/app/HW5/HomePageWithAnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/app/HW5/HomePageWithAnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestGoogle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestGoogle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,36 +47,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/HW4/HomePage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/app/HW4/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="11" selection-end-column="100" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/app/HW4/HomePageWithAnotation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#432#433#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestGoogle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+            <state relative-caret-position="187">
+              <caret line="11" column="100" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="11" selection-end-column="100" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,8 +61,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/app/HW3/DriverPoolHolder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+            <state relative-caret-position="-34">
+              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/app/HW5/HomePageWithAnotation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1035#1036#0" expanded="true" />
+                <element signature="e#1017#1018#0" expanded="true" />
+                <element signature="e#1053#1054#0" expanded="true" />
+                <element signature="e#1094#1095#0" expanded="true" />
+                <element signature="e#1130#1131#0" expanded="true" />
+                <element signature="e#1172#1173#0" expanded="true" />
+                <element signature="e#1209#1210#0" expanded="true" />
+                <element signature="e#1246#1247#0" expanded="true" />
+                <element signature="e#1283#1284#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestGoogleWithAnnotation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,9 +136,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mycompany/app/Myapp.java" />
         <option value="$PROJECT_DIR$/src/main/java/HW4/screens/HomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/HW4/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/app/HW3/DriverPoolHolder.java" />
         <option value="$PROJECT_DIR$/src/test/java/TetsGoogle.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mycompany/app/HW4/HomePageWithAnotation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestGoogle.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestGoogleWithAnnotation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/app/HW3/DriverPoolHolder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mycompany/app/HW5/HomePageWithAnotation.java" />
       </list>
     </option>
   </component>
@@ -206,7 +219,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="HW4" type="462c0819:PsiDirectoryNode" />
+              <item name="HW5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Autotests" type="b2602c69:ProjectViewProjectNode" />
@@ -232,6 +245,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553710224662" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/mycompany/app" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -246,9 +260,9 @@
       <recent name="C:\Users\User7 for automation\IdeaProjects\Autotests\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="com.mycompany.app.HW4" />
       <recent name="com.mycompany.app.HW3" />
-      <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User7 for automation\IdeaProjects\Autotests\src" />
@@ -266,10 +280,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TetsGoogle">
-    <configuration name="Myapp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mycompany.app.Myapp" />
+  <component name="RunManager" selected="JUnit.TestGoogleWithAnnotation">
+    <configuration name="TestGoogleWithAnnotation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Autotests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestGoogleWithAnnotation" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGoogleWithAnnotation.GoodLuck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Autotests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestGoogleWithAnnotation" />
+      <option name="METHOD_NAME" value="GoodLuck" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -303,30 +329,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TetsGoogle.clickSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Autotests" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TetsGoogle" />
-      <option name="METHOD_NAME" value="clickSearch" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Myapp" />
       <item itemvalue="JUnit.TetsGoogle.GoodLuck" />
       <item itemvalue="JUnit.TetsGoogle" />
-      <item itemvalue="JUnit.TetsGoogle.clickSearch" />
       <item itemvalue="JUnit.TetsGoogle.GoodLuckFill" />
+      <item itemvalue="JUnit.TestGoogleWithAnnotation.GoodLuck" />
+      <item itemvalue="JUnit.TestGoogleWithAnnotation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestGoogleWithAnnotation" />
+        <item itemvalue="JUnit.TestGoogleWithAnnotation.GoodLuck" />
         <item itemvalue="JUnit.TetsGoogle" />
         <item itemvalue="JUnit.TetsGoogle.GoodLuck" />
         <item itemvalue="JUnit.TetsGoogle.GoodLuckFill" />
-        <item itemvalue="JUnit.TetsGoogle.clickSearch" />
-        <item itemvalue="Application.Myapp" />
       </list>
     </recent_temporary>
   </component>
@@ -404,28 +420,24 @@
       <option name="project" value="LOCAL" />
       <updated>1554311408018</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add annotation">
+      <created>1555517792403</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1555517792403</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add annotation">
+      <created>1555517898541</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1555517898541</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TetsGoogle_GoodLuckFill - 2019.04.03 at 19h 47m 04s.xml">
-      <configuration name="TetsGoogle.GoodLuckFill" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TetsGoogle_GoodLuckFill - 2019.04.03 at 19h 50m 22s.xml">
-      <configuration name="TetsGoogle.GoodLuckFill" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TetsGoogle_GoodLuckFill - 2019.04.03 at 19h 53m 20s.xml">
-      <configuration name="TetsGoogle.GoodLuckFill" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TetsGoogle_GoodLuckFill - 2019.04.03 at 19h 54m 06s.xml">
-      <configuration name="TetsGoogle.GoodLuckFill" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TetsGoogle_GoodLuckFill - 2019.04.03 at 19h 55m 09s.xml">
-      <configuration name="TetsGoogle.GoodLuckFill" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TetsGoogle_GoodLuck - 2019.04.03 at 19h 56m 48s.xml">
-      <configuration name="TetsGoogle.GoodLuck" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TetsGoogle_GoodLuck - 2019.04.03 at 19h 57m 01s.xml">
       <configuration name="TetsGoogle.GoodLuck" configurationId="JUnit" />
     </history-entry>
@@ -437,6 +449,24 @@
     </history-entry>
     <history-entry file="TetsGoogle - 2019.04.03 at 20h 01m 53s.xml">
       <configuration name="TetsGoogle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestGoogleWithAnnotation_GoodLuck - 2019.04.17 at 19h 29m 49s.xml">
+      <configuration name="TestGoogleWithAnnotation.GoodLuck" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestGoogleWithAnnotation_GoodLuck - 2019.04.17 at 19h 30m 06s.xml">
+      <configuration name="TestGoogleWithAnnotation.GoodLuck" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestGoogleWithAnnotation_GoodLuck - 2019.04.17 at 19h 37m 13s.xml">
+      <configuration name="TestGoogleWithAnnotation.GoodLuck" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestGoogleWithAnnotation_GoodLuck - 2019.04.17 at 19h 38m 21s.xml">
+      <configuration name="TestGoogleWithAnnotation.GoodLuck" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestGoogleWithAnnotation_GoodLuck - 2019.04.17 at 19h 38m 37s.xml">
+      <configuration name="TestGoogleWithAnnotation.GoodLuck" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestGoogleWithAnnotation - 2019.04.17 at 19h 58m 36s.xml">
+      <configuration name="TestGoogleWithAnnotation" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -453,12 +483,12 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.1375948" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.27952328" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
@@ -474,6 +504,32 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="https://github.com/AlexandrHoroshko/Autotests.git" />
@@ -481,7 +537,8 @@
     <MESSAGE value="Copy autotest github" />
     <MESSAGE value="Add DriverPoolHolder" />
     <MESSAGE value="Tests Google home page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tests Google home page" />
+    <MESSAGE value="Add annotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add annotation" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -562,44 +619,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/app/HW3/DriverPoolHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestGoogle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        <state relative-caret-position="238">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HW4/HomePage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/app/HW3/DriverPoolHolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="11" selection-end-column="100" />
+        <state relative-caret-position="-34">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/app/HW4/HomePageWithAnotation.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/app/HW4/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        <state relative-caret-position="187">
+          <caret line="11" column="100" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="11" selection-end-column="100" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/app/HW5/HomePageWithAnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+            <element signature="e#1017#1018#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
+            <element signature="e#1094#1095#0" expanded="true" />
+            <element signature="e#1130#1131#0" expanded="true" />
+            <element signature="e#1172#1173#0" expanded="true" />
+            <element signature="e#1209#1210#0" expanded="true" />
+            <element signature="e#1246#1247#0" expanded="true" />
+            <element signature="e#1283#1284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestGoogleWithAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

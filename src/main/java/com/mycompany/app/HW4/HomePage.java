@@ -1,4 +1,4 @@
-package HW4;
+package com.mycompany.app.HW4;
 
 import com.mycompany.app.HW3.DriverPoolHolder;
 import org.openqa.selenium.By;
