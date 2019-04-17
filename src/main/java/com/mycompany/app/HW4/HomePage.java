@@ -8,8 +8,8 @@ public class HomePage {
     private By SearchInputLocator = By.name("q");
     private By GoogleIconLocator = By.id("hplogo");
     private By SearchButtonLocator = By.cssSelector("[jsname = VlcLAe] center input[name = btnK]");
-    private By GoodLuckEmptyqLocator = By.cssSelector(".FPdoLc>center>input[name = btnI]");
-    private By GoodLuckFillqLocator = By.cssSelector("[jsname = VlcLAe] center input[name = btnI]");
+    private By GoodLuckEmptyLocator = By.cssSelector(".FPdoLc>center>input[name = btnI]");
+    private By GoodLuckFillLocator = By.cssSelector("[jsname = VlcLAe] center input[name = btnI]");
 
     private static final String url = "https://google.com";
 
@@ -34,11 +34,11 @@ public class HomePage {
     }
 
     public void clickOnGoodLuckEmpty() throws Exception {
-        DriverPoolHolder.getDriver("chrome").findElement(GoodLuckEmptyqLocator).click();
+        DriverPoolHolder.getDriver("chrome").findElement(GoodLuckEmptyLocator).click();
     }
 
     public void clickOnGoodLuck() throws Exception {
-        DriverPoolHolder.getDriver("chrome").findElement(GoodLuckFillqLocator).click();
+        DriverPoolHolder.getDriver("chrome").findElement(GoodLuckFillLocator).click();
     }
 
 }

@@ -1,12 +1,11 @@
 package com.mycompany.app.HW5;
 
-import com.mycompany.app.HW3.DriverPoolHolder;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class HomePageWithAnotation {
+public class HomePageWithAnnotation {
 
 
     private static final String url = "https://google.com";
@@ -24,7 +23,7 @@ public class HomePageWithAnotation {
     @FindBy(css = "[jsname = VlcLAe] center input[name = btnI]")
     private WebElement GoodLuckFillq;
 
-    public HomePageWithAnotation(WebDriver driver) {
+    public HomePageWithAnnotation(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
@@ -32,7 +31,6 @@ public class HomePageWithAnotation {
     public void open() throws Exception {
         driver.get(url);
     }
-
 
     public void setText(String text) {
         SearchInput.sendKeys(text);

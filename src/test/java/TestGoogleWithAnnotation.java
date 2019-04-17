@@ -1,5 +1,5 @@
 import com.mycompany.app.HW3.DriverPoolHolder;
-import com.mycompany.app.HW5.HomePageWithAnotation;
+import com.mycompany.app.HW5.HomePageWithAnnotation;
 import org.junit.After;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
@@ -9,7 +9,7 @@ public class TestGoogleWithAnnotation {
 
     private WebDriver driver = DriverPoolHolder.getDriver("chrome");
 
-    private HomePageWithAnotation homePage = new HomePageWithAnotation(driver);
+    private HomePageWithAnnotation homePage = new HomePageWithAnnotation(driver);
 
     public TestGoogleWithAnnotation() throws Exception {
     }
